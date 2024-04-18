@@ -1,0 +1,12 @@
+{
+    "configs": "/home/idra/GitHub/config-manager/configs",
+    "servers": {
+        "tp": "/home/mm-test-proxy",
+        "td": "/home/idra/GitHub/config-manager/mm-test-dev",
+        "mp": "/home/mm-main-proxy",
+        "ms": "/home/idra/GitHub/config-manager/mm-main-survival",
+        "ml": "/home/idra/GitHub/config-manager/mm-main-lobby",
+        "mi": "/home/mm-main-minigames",
+        "mc": "/home/mm-main-creative"
+    }
+}
