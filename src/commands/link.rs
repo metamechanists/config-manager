@@ -47,6 +47,10 @@ pub fn link_config(metadata: &MetaData, config: &str, server: &str) {
         }
 
     } else {
+        let path = std::path::Path::new(&to);
+        let prefix = path.parent().unwrap();
+        std::fs::create_dir_all(prefix).unwrap();
+
         let contents = fs::read(&from);
         if let Err(error) = contents {
             panic!("{}", messages::error_reading_file(from.as_str(), error))
