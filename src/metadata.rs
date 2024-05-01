@@ -5,7 +5,7 @@ use serde_json::from_str;
 
 use crate::messages;
 
-const METADATA_PATH: &str = "/home/idra/GitHub/config-manager/metadata.json";
+const METADATA_PATH: &str = "/home/config-manager/metadata.json";
 
 #[derive(Deserialize)]
 pub struct MetaData {

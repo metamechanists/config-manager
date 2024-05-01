@@ -2,10 +2,10 @@
     "configs": "/home/config-manager/configs",
     "servers": {
         "tp": "/home/mm-test-proxy",
-        "td": "/home/config-manager/mm-test-dev",
+        "td": "/home/mm-test-dev",
         "mp": "/home/mm-main-proxy",
-        "ms": "/home/config-manager/mm-main-survival",
-        "ml": "/home/config-manager/mm-main-lobby",
+        "ms": "/home/mm-main-survival",
+        "ml": "/home/mm-main-lobby",
         "mi": "/home/mm-main-minigames",
         "mc": "/home/mm-main-creative"
     }
